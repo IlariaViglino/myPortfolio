@@ -1,3 +1,179 @@
-h1{
-    font-family: "Poppins", sans-serif;
+:root {
+    --backround-color: #fff4ec;
+    --primary-color: #9F2B68;
+    --secondary-color:  #476730;
+    --font-color:  #313131;
+    --box-shadow: rgb(0, 0, 0, 0.3) 0px 2px 2px 0;
+  }
+
+body{
+    background-color: var(--backround-color);
+   
 }
+#container{
+    margin-left: 13%;
+   margin-right: 13%;
+
+}
+#container-2{
+    margin-left: 13%;
+   margin-right: 13%;
+
+}
+.navbar{
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  
+    margin: 0 12.5% 0;
+    background-color: var(--backround-color);
+}
+
+@media screen and (max-width: 640px) {
+   body{ margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 20px;
+}
+.navbar{
+    
+   margin-left: 1.5%;
+    
+}
+  }
+
+header{
+    
+    margin-top: 100px;
+}
+
+h1 {display: flex;
+   flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+
+}
+h2{font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+margin-top: 40px;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 40px;
+}
+h2 span{
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.navbar ul a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar .dropdown-menu{
+    background-color: var(--backround-color);
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+.navbar .dropdown-item{
+text-transform: none;
+margin: 10px 0 0 0 ;
+font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+}
+.navbar .dropdown-menu a:hover{
+    color: var(--primary-color);
+    background-color: var(--backround-color) !important;
+}
+.navbar .nav-link{
+    color: black !important;
+}
+.navbar .nav-link:hover{
+    color: var(--secondary-color) !important;
+    text-decoration: underline;
+}
+
+main h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 140px 0 80px;
+}
+main .project-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+main p{
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+main img{
+    transition: all 200ms ease-in-out;
+}
+main img:hover{
+    transform: scale(1.1);
+}
+main button{
+   margin-top: 200px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    display:block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+    transition: all 200ms ease-in-out;
+}
+main button:hover{
+    background-color: var(--primary-color);
+    color: var(--backround-color);
+}
+
+
+footer{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+hr{
+    border: 1px solid black;
+    opacity: 1;
+}
+#container-2 ul{
+    list-style: none;
+    text-align: end;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer ul a{
+    text-decoration: none;
+    color: black;
+}
+footer ul a:hover{
+    color: var(--secondary-color);
+}
+
+#social-media-container .link{
+    transition: all 200ms ease-in-out;
+}
+#social-media-container .link:hover{
+    transform: scale(1.1);
+}
+
+
