@@ -96,7 +96,10 @@ main h4{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 600;
-    margin: 140px 0 80px;
+    margin: 80px 0 80px;
+}
+main h4:hover{
+    color: var(--primary-color);
 }
 main .project-title{
     font-family: "Poppins", sans-serif;
@@ -181,6 +184,11 @@ footer ul a:hover{
 #social-media-container .link:hover{
     transform: scale(1.1);
 }
+.poem-container{
+    text-align: center;
+    margin: 50px 40% 30px 40%;
+    font-style: italic;
+   }
 
 
 @media screen and (max-width: 576px) {
@@ -196,8 +204,15 @@ footer ul a:hover{
     display: none;
  }
  
+ }
+ @media screen and (max-width: 1200px) {
+    .poem-container{
+        margin: 50px ;
+        
+     }
+ }
 
-   }
+   
    @media (max-width: 800px){
     h1{
         font-size: 45px;
@@ -234,6 +249,7 @@ footer ul a:hover{
     main #launch-app-button{
         margin-bottom: 20px;
     }
+   
    }
    @media (max-width:960px){
     main h4{
@@ -246,6 +262,13 @@ footer ul a:hover{
         font-size: 20px;
         
      }
+     main p{
+        font-size: 12px;
+    }
+     .poem-container{
+   
+        font-size: 10px;
+     }
    }
    @media (min-width:800px){
     main #launch-app-button{
@@ -253,3 +276,4 @@ footer ul a:hover{
     }
     
    }
+   
